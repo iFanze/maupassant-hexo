@@ -1,5 +1,9 @@
 # Maupassant
 
+自用的Hexo模板，修改自[tufu9441/maupassant-hexo](https://github.com/tufu9441/maupassant-hexo)，以下为原repository的README。
+
+----------
+
 [![Build Status](https://travis-ci.org/tufu9441/maupassant-hexo.svg?branch=master)](https://travis-ci.org/tufu9441/maupassant-hexo)   [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/tufu9441/maupassant-hexo/blob/master/LICENSE)
 
 > 大道至简
