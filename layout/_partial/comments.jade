@@ -66,3 +66,19 @@ if theme.livere
          j.async = true;
          e.parentNode.insertBefore(j, e);
       })(document, 'script');
+
+if theme.valine
+  div(id='comment')
+    script.
+      (function(){
+        new Valine({
+            el: '#comment',
+            notify: false, 
+            verify: false, 
+            appId: 'kfIuT7r4gG6hnmNl3uQ5vOqp-gzGzoHsz',
+            appKey: '59tx3uBM3K1Ao4JFH5oE3VEK',
+            placeholder: 'Welcome~ ^_^',
+            path:window.location.pathname, 
+            avatar:'mm' 
+        });
+      })();
